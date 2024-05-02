@@ -41,11 +41,10 @@ public class Atleta extends Persona implements Contrato {
     }
 
     public double CalcularIMC(){
-        double IMC = weight / Math.pow(height, 2);
-        return IMC;
+        return this.weight/Math.pow(this.height, 2);
 
     }
-    public boolean hayPesoExtra(){
+    public boolean hayPesoExtra(double weight){
         double IMC = CalcularIMC();
 
         if (IMC>24.9){

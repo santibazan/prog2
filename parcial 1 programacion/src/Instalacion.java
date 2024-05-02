@@ -3,7 +3,7 @@ public class Instalacion {
     private String location;
     private String instalationName;
     private String instalationType;
-    private sede campus;
+    private Sede campus;
 
     public Instalacion(String category, String location, String instalationName, String instalationType) {
         this.category = category;
@@ -44,11 +44,11 @@ public class Instalacion {
         this.instalationType = instalationType;
     }
 
-    public sede getCampus() {
+    public Sede getCampus() {
         return campus;
     }
 
-    public void setCampus(sede campus) {
+    public void setCampus(Sede campus) {
         this.campus = campus;
     }
 }

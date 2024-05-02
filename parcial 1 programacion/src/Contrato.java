@@ -1,6 +1,6 @@
 public interface Contrato {
     double CalcularIMC();
-    boolean hayPesoExtra();
+    boolean hayPesoExtra(double weight);
     double tomarPulsaciones();
 
 
