@@ -15,11 +15,6 @@ public class Main {
         Prueba P3 = new Prueba(003, "Salto con garrocha");
         Prueba P4 = new Prueba(004, "Lanzamineto de jabalina");
 
-        Instalacion I1 = new Instalacion("Caca", "Caca", "Caca", "Caca");
-        Instalacion I2 = new Instalacion("Caca", "Caca", "Caca", "Caca");
-        Instalacion I3 = new Instalacion("Caca", "Caca", "Caca", "Caca");
-        Instalacion I4 = new Instalacion("Caca", "Caca", "Caca", "Caca");
-
         Sede S1 = new Sede(1, "30/04", "15.00");
         Sede S2 = new Sede(2, "7/05", "15.00");
         Sede S3 = new Sede(3, "14/05", "15.00");
